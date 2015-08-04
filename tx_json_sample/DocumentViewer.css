@@ -1,0 +1,130 @@
+﻿#DocumentViewer1_toolbar {
+    background: none !important;
+    background-color: white !important;
+    border: 1px solid #c2c2c2;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+    width: auto !important;
+}
+
+#DocumentViewer1_view {
+    background: -webkit-radial-gradient(#a6a6a6, #393939) !important;
+    background: -o-radial-gradient(#a6a6a6, #393939) !important;
+    background: -moz-radial-gradient(#a6a6a6, #393939) !important;
+    background: radial-gradient(#a6a6a6, #393939) !important;
+    }
+
+#DocumentViewer1_toolbar_pnl_shadow {
+    visibility: hidden;
+}
+
+#DocumentViewer1_toolbar input.button {
+    border: 1px solid #c2c2c2 !important;
+    margin-right: 5px !important;
+    background-color: transparent; 
+    border: 1px solid #c2c2c2; 
+    border-radius: 2px; 
+    background: none;
+    cursor: pointer;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    top: 1px !important;
+    width: 28px !important;
+    height: 28px !important;
+    margin-top: 3px !important;
+}
+
+#DocumentViewer1_view_document {
+    opacity: 1;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    animation-name: stretch;
+    animation-duration: 0.5s; 
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-play-state: running; 
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.9);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1.0);
+    opacity: 1;
+  }
+}
+
+#DocumentViewer1_toolbar input.button:hover {
+    background-color: #d5e1f2 !important;
+    border: 1px solid #c2c2c2 !important;
+}
+
+.aspNetDisabled {
+    opacity: 0.4;
+    cursor: default !important;
+}
+
+.aspNetDisabled:hover {
+    background-color: transparent !important; 
+}
+
+#DocumentViewer1_toolbar input.buttonselected { 
+    background-color: red !important; 
+}
+
+#DocumentViewer1_toolbar_btn_first {
+    background-image: url('images/first.png') !important;
+}
+
+#DocumentViewer1_toolbar_btn_last {
+    background-image: url('images/last.png') !important;
+}
+
+#DocumentViewer1_toolbar_btn_next {
+    background-image: url('images/next.png') !important;
+}
+
+#DocumentViewer1_toolbar_btn_prev {
+    background-image: url('images/backbtn.png') !important;
+}
+
+#DocumentViewer1_toolbar_btn_edit {
+    background-image: url('images/edit.png') !important;
+}
+
+#DocumentViewer1_toolbar_btn_whole {
+    background-image: url('images/whole.png') !important;
+}
+
+#DocumentViewer1_toolbar_btn_width {
+    background-image: url('images/width.png') !important;
+}
+
+#DocumentViewer1_toolbar_btn_full {
+    background-image: url('images/full.png') !important;
+}
+
+#DocumentViewer1_toolbar_btn_half {
+    background-image: url('images/half.png') !important;
+}
+
+#DocumentViewer1_toolbar_tbx_page {
+    background: none !important;
+    color: black !important;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+    -khtml-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+#DocumentViewer1_toolbar_btn_edit {
+    margin-left: 5px !important;
+}
