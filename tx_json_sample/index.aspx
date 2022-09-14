@@ -1,13 +1,13 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="tx_json_sample.index" %>
 
-<%@ Register assembly="TXDocumentServer, Version=22.0.800.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638" namespace="TXTextControl.DocumentServer.Web" tagprefix="cc1" %>
+<%@ Register assembly="TXDocumentServer.Web.DocumentViewer, Version=31.0.200.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638" namespace="TXTextControl.DocumentServer.Web" tagprefix="cc1" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>TX Text Control: Merge from JSON data</title>
-    <script src="Scripts/jquery-2.1.4.js"></script>
+    <script src="Scripts/jquery-3.6.0.js"></script>
     <link href="DocumentViewer.css" rel="stylesheet" />
 </head>
 <body>

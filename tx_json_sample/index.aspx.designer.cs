@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace tx_json_sample {
-    
-    
-    public partial class index {
-        
+namespace tx_json_sample
+{
+
+
+    public partial class index
+    {
+
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace tx_json_sample {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+
         /// <summary>
         /// TextBox1 control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace tx_json_sample {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBox1;
-        
+
         /// <summary>
         /// Button1 control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace tx_json_sample {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
-        
+
         /// <summary>
         /// lblError control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace tx_json_sample {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblError;
-        
+
         /// <summary>
         /// DocumentViewer1 control.
         /// </summary>
