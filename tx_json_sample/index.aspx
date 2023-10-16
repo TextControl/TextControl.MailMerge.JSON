@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="tx_json_sample.index" %>
 
-<%@ Register assembly="TXDocumentServer.Web.DocumentViewer, Version=31.0.200.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638" namespace="TXTextControl.DocumentServer.Web" tagprefix="cc1" %>
+<%@ Register assembly="TXDocumentServer.Web.DocumentViewer, Version=32.0.300.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638" namespace="TXTextControl.DocumentServer.Web" tagprefix="cc1" %>
 
 <!DOCTYPE html>
 

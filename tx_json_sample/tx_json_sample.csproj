@@ -68,13 +68,13 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
-    <Reference Include="TXDocumentServer, Version=31.0.1700.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL" />
-    <Reference Include="TXDocumentServer.Web.DocumentViewer, Version=31.0.200.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
+    <Reference Include="TXDocumentServer, Version=32.0.1800.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL" />
+    <Reference Include="TXDocumentServer.Web.DocumentViewer, Version=32.0.300.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\Program Files\Text Control GmbH\TX Text Control 31.0.NET Server for ASP.NET\Assembly\TXDocumentServer.Web.DocumentViewer.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Program Files\Text Control GmbH\TX Text Control 33.0.NET Server for ASP.NET\Assembly\TXDocumentServer.Web.DocumentViewer.dll</HintPath>
     </Reference>
-    <Reference Include="TXTextControl, Version=31.0.2400.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638" />
-    <Reference Include="TXTextControl.Server, Version=31.0.1600.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638" />
+    <Reference Include="TXTextControl, Version=32.0.2500.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638" />
+    <Reference Include="TXTextControl.Server, Version=32.0.1700.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
